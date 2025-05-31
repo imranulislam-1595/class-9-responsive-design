@@ -1,0 +1,327 @@
+/* media query */
+
+/* == for mobile display regulation only == */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 35px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+    p {
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 25px;
+      font-size: 16px;
+      border: 1px solid #ff0000b8;
+      font-weight: 500;
+    }
+    button:hover {
+      letter-spacing: 3px;
+    }
+    section {
+      margin: 30px 0;
+    }
+    span {
+      height: 3px;
+      width: 120px;
+    }
+  
+    header {
+      min-height: 80vh;
+    }
+    .navbar {
+      display: block;
+      margin: 10px auto;
+      padding: 20px 0;
+    }
+    .logo {
+      text-align: center;
+    }
+    nav ul {
+      text-align: center;
+    }
+    nav ul li {
+      display: inline-block;
+      margin: 10px 10px 0 10px;
+    }
+    nav ul li a {
+      font-weight: 500;
+      text-align: center;
+    }
+  
+    /* banner */
+  
+    .banner {
+      padding: 170px 0 80px 0;
+    }
+    .banner h4 {
+      margin: 0 0 0px 0;
+    }
+  
+    /* upcomming event */
+      .event-title h2 {
+      margin: 20px 0 0px 0;
+    }
+  
+    .event-main {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+      margin: 10px 20px 0 10px;
+    }
+    .event {
+      padding: 10px;
+    }
+    .event img {
+      height: 250px;
+      width: auto;
+      border-top-right-radius: 50px;
+    }
+    .event h3 {
+      margin: 20px 0 0 0;
+    }
+    .event p {
+      line-height: 23px;
+    }
+    .event a {
+      padding: 10px 0 0 0;
+    }
+/* Discover Nature's Hidden Beauty */
+
+.discover-parent {
+  padding: 10px;
+
+}
+.discover {
+  width: 50%;
+}
+.discover h1 {
+  margin: 0 15px 0 0;
+}
+.discover a {
+  color:red;
+}
+
+/* tour */
+
+.tour-main {
+  padding: 20px 0px 0 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
+}
+.tour h4 {
+  margin: 0;
+}
+.tour p {
+  line-height: 15px;
+  text-align: left;
+  margin: 20px 20px 0px auto;
+}
+
+.img1 {
+  height: 120px;
+  width:auto;
+
+}
+.img2 {
+  height: 120px;
+  width: auto;
+
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color:darkslategray;
+  color: white;
+}
+
+.fa-brands {
+  margin: 5px;
+  font-size: 15px;
+}
+
+  }
+  
+  /* == for tab display regulation only == */
+  
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+    h1 {
+      font-size: 45px;
+    }
+    h2 {
+      font-size: 35px;
+    }
+    h3 {
+      font-size: 25px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+    button {
+      padding: 13px 27px;
+      font-size: 17px;
+      border: 1px solid #ff0000b8;
+      font-weight: 500;
+    }
+    button:hover {
+      letter-spacing: 4px;
+    }
+    section {
+      margin: 40px 0;
+    }
+    span {
+      height: 4px;
+      width: 130px;
+    }
+  
+    header {
+      min-height: 80vh;
+    }
+    .navbar {
+      display: block;
+      margin: 10px auto;
+      padding: 20px 0;
+    }
+  
+    .logo {
+      text-align: center;
+    }
+  
+    nav ul {
+      text-align: center;
+    }
+    nav ul li {
+      display: inline-block;
+      margin: 20px 10px 0 10px;
+    }
+    nav ul li a {
+      font-weight: 500;
+      text-align: center;
+    }
+  
+    /* banner */
+  
+    .banner {
+      padding: 170px 0 80px 0;
+    }
+    .banner h4 {
+      margin: 0 0 0px 0;
+    }
+  /* upcomming event */
+  .event-title h2 {
+    margin: 20px 0 0px 0;
+  }
+  
+  .event-main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 20px 20px 0 10px;
+  }
+  .event {
+    padding: 15px;
+  }
+  .event img {
+    height: 300px;
+    width: auto;
+    border-top-right-radius: 50px;
+  }
+  .event h3 {
+    margin: 30px 0 0 0;
+  }
+  .event p {
+    line-height: 23px;
+  }
+  .event a {
+    padding: 10px 0 0 0;
+  }
+  /* Discover Nature's Hidden Beauty */
+
+.discover-parent {
+  padding: 20px;
+
+}
+.discover {
+  width: 50%;
+}
+.discover h1 {
+  margin: 0 20px 0 0;
+}
+.discover a {
+  color:red;
+}
+  
+/* tour */
+
+.tour-main {
+  padding: 20px 0px 0 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
+}
+.tour h4 {
+  margin: 10px;
+}
+.tour p {
+  line-height: 15px;
+  text-align: left;
+  margin: 0px 0px 10px auto;
+}
+
+.img1 {
+  height: 170px;
+  width:auto;
+
+}
+.img2 {
+  height: 170px;
+  width: auto;
+
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color:darkslategray;
+  color: white;
+}
+
+.fa-brands {
+  margin: 7px;
+  font-size: 20px;
+}
+
+  }
+  
+  /* == tab landscape and squir monitor display regulation only == */
+  
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    h1 {
+      font-size: 60px;
+    }
+  }
+  
+  /* == leptop and small desktop display regulation only == */
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  }
+  
+  /* == large leptop and normal monitor display regulation only == */
+  
+  @media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  }
+  
